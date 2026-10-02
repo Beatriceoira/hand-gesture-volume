@@ -1,0 +1,155 @@
+# ==========================================
+# Python
+# ==========================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env/
+.python-version
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# ==========================================
+# Environment / Secrets
+# ==========================================
+
+.env
+.env.*
+!.env.example
+
+# ==========================================
+# IDEs / Editors
+# ==========================================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+
+# ==========================================
+# Jupyter
+# ==========================================
+
+.ipynb_checkpoints/
+
+# ==========================================
+# Testing / Coverage
+# ==========================================
+
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.coverage.xml
+*.cover
+
+# ==========================================
+# Type Checking / Linters
+# ==========================================
+
+.mypy_cache/
+.pyre/
+.ruff_cache/
+.pytype/
+
+# ==========================================
+# OS Files
+# ==========================================
+
+# Linux
+*~
+.directory
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+
+# ==========================================
+# Logs
+# ==========================================
+
+*.log
+logs/
+
+# ==========================================
+# Local Configuration
+# ==========================================
+
+*.local
+config.local.*
+settings.local.*
+
+# ==========================================
+# Temporary Files
+# ==========================================
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# ==========================================
+# Generated Media / Captures
+# ==========================================
+
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+*.wav
+*.mp3
+*.jpg
+*.jpeg
+*.png
+*.gif
+
+# ==========================================
+# Project-Specific
+# ==========================================
+
+# Local webcam recordings
+captures/
+recordings/
+
+# Local experiment/output files
+output/
+outputs/
+results/
+
+# ==========================================
+# Python Build / Tool Caches
+# ==========================================
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
